@@ -1,0 +1,41 @@
+style.css
+p{
+    font-size: 18px;
+}
+body
+{
+    background-color: hsl(0, 0%,100%);
+
+}
+span
+{
+    font-size: 40px;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500, 700;
+    
+}
+.cart{
+
+
+    background-color hsl(212, 21%, 14%);
+    background-size: auto;
+    font-size: 40px;
+    font-weight: 100;
+    font-display: center;
+    color: rgb(200,200,200); 
+}
+.image{
+    font: 1440px;
+    float: inline-start;
+    margin-right: 5px;
+}
+.align{
+    text-align: initial;
+    float: right;
+}
+.paragraph{
+    font: 14px;
+}
+
+    

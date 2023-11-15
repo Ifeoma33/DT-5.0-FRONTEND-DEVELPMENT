@@ -1,38 +1,35 @@
 style.css
-p{
-    font-size: 18px;
+body{
+    background-color: blue;
+    width: 100px;
 }
-body
-{
-    background-color: hsl(30, 38%,92%);
-margin-block: ;
+.container{
+    display: block;
+    justify-content: center;
+    align-items: start;
+    width: 900px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: blue;
+    margin-block: 50%;
 }
-span
-{
-    font-size: 40px;
-    color: hsl(228, 12%, 48%);
-    font-family: Montserrat, sans-serif;
-    font-weight: 500, 700;
-    
+.image-container{
+    flex:1;
+    text-align: left;
 }
-.cart{
+.image-container img {
+    width: 400px;
+}
+.text-container{
+    flex 1;
+    text-align: right;
 
-
-    background-color hsl(212, 21%, 14%);
-    background-size: auto;
-    font-size: 40px;
-    font-weight: 100;
-    font-display: center;
-    color: rgb(200,200,200); 
-}
-.image{
-    font: 1440px;
-    float: inline-start;
-    margin-right: 5px;
 }
 .align{
     text-align: initial;
     float: right;
+    width: 30;
+    text-align: center;
 }
 .paragraph{
     font: 14px;
